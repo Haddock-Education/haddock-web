@@ -12,18 +12,17 @@ function Homeinfo(){
                 <div className="dica-do-dia">
                     <div className="title-container">
                         <h3>Dica do dia</h3>
-                        <img className="ideia-icon" src={Ideia} alt="icon dica do dia" />
                     </div>
-                    <p>Lorem ipsum dolorr sit amet, consectetur adipiscing elit. Etiam feugiat pulvinar ipsum.</p>
+                    <p>Lavar o casco com aguá doce e sabão neutro sempre que possível ajuda a conservar a pintura. É importante secar bem e aplicar uma camada de cera de alta qualidade</p>
                 </div>
             </div>
             <div className="noticia-destaque">
                 <div className="title-noticia">
-                    <h3>Novos Barcos Rebocadores</h3>
+                    <h3>Somos todos wilson sons</h3>
                     <img src={Propaganda} alt="Nova Plataforma para Rebocadores" />
                 </div>
                 <div className="saiba-mais-container">
-                    <p>Lorem ipsum dolorr sit amet, consectetur adipiscing elit. Etiam feugiat pulvinar ipsum Etiam feugiat pulvinar ipsum.</p>
+                    <p>Construímos uma empresa líder no mercado brasileiro. Foi pensando nesses últimos quase dois séculos que decidimos dar mais um passo, fortalecendo a marca Silson Sons</p>
                     <button type="button">Saiba mais</button>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import './perfil.css'
 
 import TitleBox from '../Titlebox'
-import Avatar from '../../assets/img/avatar.png'
+import Avatar from '../../assets/img/avatar3.png'
 
 
 function Perfil() {
@@ -41,9 +41,9 @@ function Perfil() {
                     </div>
                     <div className="bio-area">
                             <h2>ROBERTO RANIERI</h2>
-                            <h4>MARINHEIRO DE CONVÉS <span>(a 18 meses)</span></h4>
+                            <h4>chefe de máquina <span>(a 18 meses)</span></h4>
                             <h3>santos, sp</h3>
-                            <p id="bio" >porque ao dar voz aos colaboradores conseguimos medir suas reais dores e fornecer treinamentos mais acertivos e eficazes?</p>
+                            <p id="bio" >Possuo sólida experiência como chefe de máquina e estou disposto a dividir meus conhecimentos com meus colegas e assim contribuir para o crescimento de todos</p>
                             <div className="form-content">
                                 <form onSubmit={(event)=>{ShowEditProfile( event,'bio','editBio','btn-profile')}} className="container-form">
                                     <textarea id="editBio" placeholder="Descreva o que deseja saber" hidden />

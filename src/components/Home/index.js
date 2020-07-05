@@ -5,6 +5,7 @@ import './home.css'
 import CardeMinQuest from '../Cardminquest'
 import Homeinfo from '../Homeinfo'
 import TitleBox from '../Titlebox'
+import avatar from '../../assets/img/avatar6.png'
 
 
 function Home(){
@@ -14,13 +15,8 @@ function Home(){
                 <div className="ident-title-box">
                     <TitleBox title="Dúvidas recentes" />
                 </div>
-                <CardeMinQuest />
-                <CardeMinQuest />
-                <CardeMinQuest />
-                <CardeMinQuest />
-                <CardeMinQuest />
-                <CardeMinQuest />
-
+                <CardeMinQuest  avatar={avatar} />
+           
             </div>
             <Homeinfo/>
         </div>
