@@ -41,6 +41,23 @@
     outline: none;
 }
 
+.input-container .form-pesq .input-pesq .input-pesq-bj{
+    width: 90%;
+    height: 40px;
+    padding: 0 25px;
+    border: none;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    outline: none;
+    margin-right: 5px;
+}
+
+  
+
+
 .pgt-container{
     padding: 10px 0;
     display: flex;

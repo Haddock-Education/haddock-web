@@ -7,6 +7,7 @@ import './navbar.css'
 import HaddockImg from '../../assets/img/logo-200.png'
 import Tempo from '../../assets/img/TEMPO.png'
 import Notify from '../../assets/img/Notify-1.png'
+import Lupa from '../../assets/img/lupa.png'
 
 import {Context} from '../../Context/AuthContext'
 
@@ -25,7 +26,10 @@ function Navbar(){
                 </div>
                 <div className="col-lg-4 input-container">
                     <form className="form-inline my-2 my-lg-0 form-pesq">
-                        <input className="form-search input-pesq" type="search" placeholder="Encontre uma resposta"/>
+                        <div className="input-pesq">
+                            <input className="form-search input-pesq-bj" type="search" placeholder="Encontre uma resposta"/>
+                            <a><img src={Lupa}/></a>
+                        </div>
                     </form>
                 </div>
                 <div className="col-lg-2 pgt-container">
