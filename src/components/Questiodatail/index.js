@@ -36,7 +36,7 @@ function Questiondetail(){
                 </div>
                 <div className="response-container">
 
-                    <div className="main-question">
+                    <div className="main-question ">
                         <div className="card-min-img">
                             <img className="imf-fluid" src={Avatar}  alt="Manuel Figueiredo" />
                         </div>

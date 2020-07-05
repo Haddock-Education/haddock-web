@@ -29,6 +29,11 @@ a{
   cursor: pointer;
 }
 
+.ident-title-box{
+  width: 100%;
+  padding-left: 5%;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 4px;

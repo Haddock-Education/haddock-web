@@ -30,7 +30,9 @@ function Perfil() {
     return(
         <div className="perfil-container">
             <div className="perfil-section">
-                <TitleBox title="Perfil Completo" />
+                <div className="ident-title-box">
+                    <TitleBox title="Perfil Completo" />
+                </div>
                 <div className="user-profile">
                     <div className="img-area">
                         <div className="img-content">

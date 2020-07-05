@@ -20,6 +20,7 @@
 .question-detail-section .title-area{
     width: 100%;
     margin-bottom: 15px;
+    padding-left: 5%;
 }
 
 .question-detail-section .title-area h2{
@@ -125,6 +126,8 @@
     align-items: center;
     box-sizing: border-box;
 }
+
+
 
 .response-container .response-question{
     width: 95%;

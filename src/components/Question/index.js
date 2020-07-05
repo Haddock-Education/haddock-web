@@ -8,7 +8,9 @@ function Question(){
     return(
         <div className="question-container">
             <div className="question-section">
-                <TitleBox title="Fazer uma pergunta"/>
+                <div className="ident-title-box">
+                    <TitleBox title="Fazer uma pergunta" />
+                </div>
                 <FormDf />
             </div>
         </div>
