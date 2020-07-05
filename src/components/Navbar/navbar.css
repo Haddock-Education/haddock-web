@@ -1,0 +1,127 @@
+.navbar-container{
+    background-color: white;
+    box-shadow:2px 0px 4px #BCBCBC;
+}
+
+.logo-container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container .logo-haddock{
+    max-width: 175px;
+}
+
+.input-container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container .form-pesq{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container .form-pesq .input-pesq{
+    width: 100%;
+    height: 40px;
+    padding: 0 25px;
+    border: none;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    outline: none;
+}
+
+.pgt-container{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pgt-container .pgt-btn{
+    padding: 9px 10px 0;
+    height: 40px;
+    width: 100%;
+    background-color: #243B7B;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.pgt-container .pgt-btn:hover{
+    background-color: #18295a;
+}
+
+.prev-temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hb-menu-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hb-menu-container .btn-hb-menu{
+    border: none;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hb-menu-container .btn-hb-menu:focus{
+    outline: 3px solid #243B7B;
+    background: white;
+}
+
+.hb-menu-container .btn-hb-menu span{
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 35pt;
+   color: #243B7B;
+}
+
+.dropdown-toggle:after{
+    display: none;
+}
+
+.dp-item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: rgba(87, 87, 87, 0.87); 
+}
+
+.dp-item:hover{
+    text-decoration: none;
+    color: rgba(87, 87, 87, 0.87); 
+}
+
+.hb-menu-container .dropdown-item.active, .dropdown-item:active {
+    background-color: rgba(219, 214, 214, 0.87);
+}

@@ -1,0 +1,133 @@
+.home-informations-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 5px 3px;
+    overflow: auto;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.dica-container{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.dica-do-dia{
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 200px;
+    width: 150px;
+    background-color: rgba(36, 59, 123, 0.9);
+    border-radius: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.dica-do-dia h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 12pt;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.dica-do-dia p{
+    box-sizing: border-box;
+    height: 80px;
+    width: 80%px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10pt;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 0 10px 5px 20px;
+}
+
+.dica-do-dia .title-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dica-do-dia .ideia-icon{
+    width: 35px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.noticia-destaque{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    padding-left: 40px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.noticia-destaque .title-noticia{
+    height: 100%;
+    flex: 60;
+    box-sizing: border-box;
+}
+
+.noticia-destaque .title-noticia h3{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14pt;
+    text-transform: uppercase;
+    color: #979797;
+}
+
+.noticia-destaque .title-noticia img{
+    height: 175px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.saiba-mais-container{
+    flex: 40;
+}
+
+.saiba-mais-container p{
+    width: 80%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14pt;
+    line-height: 24px;
+    color: rgba(87, 87, 87, 0.87);
+}
+
+.saiba-mais-container button{
+    background: #243B7B;
+    border: none;
+    border-radius: 40px;
+    width: 140px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFEFE;
+    outline: none;
+}
+
+.saiba-mais-container button:hover{
+    background-color: #18295a;
+}

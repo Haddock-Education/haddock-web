@@ -1,0 +1,12 @@
+.title-box{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.title-box h2{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24pt;
+    text-transform: uppercase;
+    color: #979797;
+}

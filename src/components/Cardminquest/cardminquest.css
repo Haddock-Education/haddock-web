@@ -1,0 +1,59 @@
+
+/*Style card min question*/
+.card-min-question{
+    width: 90%;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(36, 59, 123, 0.09);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.card-min-question .card-min-img{
+    margin-left: -5px;
+    flex: 20;
+}
+
+.card-min-question .card-text{
+    flex: 70;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-min-question .card-text p{
+    margin-top: 10px;
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+}
+
+.card-min-question .card-text h4{
+    width: 100%;
+    height: 20%;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #243B7B;
+    box-sizing: border-box;
+}
+
+.card-min-question .card-min-classific{
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-min-question .card-min-classific img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

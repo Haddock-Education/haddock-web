@@ -1,0 +1,143 @@
+.perfil-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-section{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-profile{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    margin-top: 25px;
+}
+
+.img-area{
+    flex: 20;
+}
+
+.img-area .img-content{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bio-area{
+    flex: 80;
+    padding-left: 30px;
+}
+
+.bio-area h2{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 23pt;
+    line-height: 27pt;
+    color: #243B7B;
+}
+
+.bio-area h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14pt;
+    line-height: 17pt;
+    color: #243B7B;
+    text-transform: uppercase;
+}
+
+.bio-area h4 span{
+    font-weight: 900;
+}
+
+.bio-area h3{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16pt;
+    line-height: 20pt;
+    color: #243B7B;
+    text-transform: uppercase;
+}
+
+.bio-area p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(87, 87, 87, 0.87);
+}
+
+.bio-area .form-content{
+    width: 100%;
+    display: flex;
+}
+
+/*form style*/
+.form-content .container-form{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form-content .container-form textarea{
+    width: 100%;
+    height: 180px;
+    padding: 0 25px;
+    border: none;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 15px;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.form-content .btn-ct{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-content .container-form button{
+    padding: 9px 10px 0;
+    height: 40px;
+    width: 150px;
+    background-color: #243B7B;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    border:none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    outline: none;
+}
+
+.form-content .container-form button:hover{
+    background-color: #18295a;
+}
