@@ -10,8 +10,9 @@ import Recover from './components/Recover'
 function CustomRoute({isPrivate, ...rest}){
     const { authenticate } = useContext(Context)
     if(isPrivate && !authenticate ){
+        
         return (
-            <Redirect to="/login" />
+             <Redirect to="/login" />
         )
     }
 

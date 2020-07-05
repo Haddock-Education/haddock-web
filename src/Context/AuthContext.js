@@ -2,6 +2,7 @@ import React, { createContext, useState, useEffect } from 'react'
 import api from '../models/api'
 import history from '../history'
 
+
 const Context = createContext()
 
 function AuthProvider({children}){
@@ -50,7 +51,8 @@ function AuthProvider({children}){
         document.location.reload()
     }
 
-    if( window.location.href !== `${process.env.REACT_APP_URL}/` && window.location.href !== `${process.env.REACT_APP_URL}/login` && window.location.href !== `${process.env.REACT_APP_URL}/recover` && window.location.href !== `${process.env.REACT_APP_URL}/cadastro`){
+    if(window.location.href !== `${process.env.REACT_APP_URL}/login` && window.location.href !== `${process.env.REACT_APP_URL}/recover` && window.location.href !== `${process.env.REACT_APP_URL}/cadastro`){
+        
         if(loader){
             return(
                 <div>
@@ -60,6 +62,7 @@ function AuthProvider({children}){
                 </div>
             )
         }
+         
     }
 
     return(
