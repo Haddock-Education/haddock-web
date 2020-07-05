@@ -11,7 +11,9 @@ function Home(){
     return(
         <div className="home-container">
             <div className="home-section-duvidas">
-                <TitleBox title="Dúvidas recentes" />
+                <div className="ident-title-box">
+                    <TitleBox title="Dúvidas recentes" />
+                </div>
                 <CardeMinQuest />
                 <CardeMinQuest />
                 <CardeMinQuest />

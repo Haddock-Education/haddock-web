@@ -1,14 +1,11 @@
 import React from 'react'
 import './noticias.css'
+import Titlebox from '../Titlebox'
 
 function Noticias(){
     return(
         <aside className="noticia-container">
-                <h3 className="title">Notícias</h3>
-            <div className="noticia-card">
-                <h4 className="card-title" >Poque a</h4>
-                <p className="card-resumo" >Lorem ipsum dolor sit amet, consectetur.</p>
-            </div>
+            <Titlebox title="Notícias" />
             <div className="noticia-card">
                 <h4 className="card-title" >Poque a</h4>
                 <p className="card-resumo" >Lorem ipsum dolor sit amet, consectetur.</p>
