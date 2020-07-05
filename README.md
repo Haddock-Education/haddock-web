@@ -1,4 +1,4 @@
-#Haddock 
+##Haddock 
 
 Haddokc é uma plataforma de compartilhamento de informações entre marinheiros
 onde todos podem obter e compartilhar duvidas do dia dia.
