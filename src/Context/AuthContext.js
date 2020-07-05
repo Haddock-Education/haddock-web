@@ -50,7 +50,7 @@ function AuthProvider({children}){
         document.location.reload()
     }
 
-    if(window.location.href !== "https://haddock.herokuapp.com/login" && window.location.href !== "https://haddock.herokuapp.com/recover" && window.location.href !== "https://haddock.herokuapp.com/cadastro"){
+    if( window.location.href !== "https://haddock.herokuapp.com/" && window.location.href !== "https://haddock.herokuapp.com/login" && window.location.href !== "https://haddock.herokuapp.com/recover" && window.location.href !== "https://haddock.herokuapp.com/cadastro"){
         if(loader){
             return(
                 <div>
