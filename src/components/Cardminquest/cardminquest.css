@@ -2,18 +2,19 @@
 /*Style card min question*/
 .card-min-question{
     width: 90%;
-    height: 110px;
+    height: 160px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     background: rgba(36, 59, 123, 0.09);
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
     margin-bottom: 20px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .card-min-question .card-min-img{
-    margin-left: -5px;
+    margin-left: 10px;
+    margin-top: 10px;
     flex: 20;
 }
 
@@ -46,14 +47,62 @@
 }
 
 .card-min-question .card-min-classific{
+    width: 250px;
+    height: 80px;
     flex: 10;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    padding-bottom: 25px;
 }
 
 .card-min-question .card-min-classific img{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.card-min-question .favorite-content {
+    margin-left: 15px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-min-question .favorite-content span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12pt;
+    color: #BCBCBC;
+    padding-top: 5px;
+}
+
+.card-min-question button{
+    height: 45px;
+    width: 130px;
+    background-color: #243B7B;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFEFE;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    outline: 0;
+}
+
+.card-min-question button:hover{
+    background-color: #18295a;
 }

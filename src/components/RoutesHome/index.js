@@ -20,7 +20,7 @@ function Routeshome(){
             <Rankside/>
             <div className="container-routes">
                 <Switch>
-                    <Route exact path="/" component={Home} />
+                    <Route path="/home" component={Home} />
                     <Route path="/perguntas" component={Question} />
                     <Route path="/perfil" component={Perfil} />
                 </Switch>

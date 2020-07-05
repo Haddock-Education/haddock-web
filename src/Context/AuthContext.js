@@ -37,7 +37,7 @@ function AuthProvider({children}){
             localStorage.setItem('token', JSON.stringify(response.data.data.token.accesstoken))
             api.defaults.headers.Authorization = `Bearer ${response.data.data.token.accesstoken}`
             setAuthenticate(true)
-            history.push('/')
+            history.push('/home')
             document.location.reload()
         }
 
@@ -51,17 +51,17 @@ function AuthProvider({children}){
         document.location.reload()
     }
 
-    if(window.location.href !== `${process.env.REACT_APP_URL}/login` && window.location.href !== `${process.env.REACT_APP_URL}/recover` && window.location.href !== `${process.env.REACT_APP_URL}/cadastro`){
-        
-        if(loader){
+    if( window.location.href !== `${process.env.REACT_APP_URL}/login` && window.location.href !== `${process.env.REACT_APP_URL}/recover` && window.location.href !== `${process.env.REACT_APP_URL}/cadastro`){
+        if(loader && !authenticate){
+                
             return(
                 <div>
                     <h1>loader...</h1>
                     <a href={`${process.env.REACT_APP_URL}/login`}>ir para login</a>
-                    
                 </div>
             )
         }
+        
          
     }
 

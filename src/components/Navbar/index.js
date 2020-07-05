@@ -6,6 +6,8 @@ import {Dropdown} from 'react-bootstrap'
 import './navbar.css'
 import HaddockImg from '../../assets/img/logo-200.png'
 import Tempo from '../../assets/img/TEMPO.png'
+import Notify from '../../assets/img/Notify-1.png'
+
 import {Context} from '../../Context/AuthContext'
 
 
@@ -17,17 +19,28 @@ function Navbar(){
         <div className="container-fluid navbar-container fixed-top" >
             <nav className="navbar navbar-expand-lg row" >
                 <div className="col-lg-2 logo-container">
-                    <Link to="/">
+                    <Link to="/home">
                         <img className="img-fluid logo-haddock" src={HaddockImg} alt="Haddock" />
                     </Link>
                 </div>
-                <div className="col-lg-5 input-container">
+                <div className="col-lg-4 input-container">
                     <form className="form-inline my-2 my-lg-0 form-pesq">
                         <input className="form-search input-pesq" type="search" placeholder="Encontre uma resposta"/>
                     </form>
                 </div>
                 <div className="col-lg-2 pgt-container">
                     <Link className="pgt-btn" to="/perguntas" >Fazer uma pergunta</Link>
+                </div>
+                <div className="col-lg-1 notify-content">
+                    <Dropdown>
+                        <Dropdown.Toggle variant="white"  id="dropdown-basic" className="btn-hb-menu">
+                            <img src={Notify} className="notify-icon" />
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu>
+                            <Dropdown.Item><p className="text-muted">Você não tem novas notificações</p></Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>
                 </div>
                 <div className="col-lg-2 prev-temp" >
                     <img className="img-fluid" src={Tempo} alt="Clima tempo" />

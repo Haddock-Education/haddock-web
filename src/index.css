@@ -25,6 +25,9 @@ html, body{
   overflow: hidden;
 }
 
+a{
+  cursor: pointer;
+}
 
 /* width */
 ::-webkit-scrollbar {

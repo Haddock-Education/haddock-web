@@ -125,3 +125,32 @@
 .hb-menu-container .dropdown-item.active, .dropdown-item:active {
     background-color: rgba(219, 214, 214, 0.87);
 }
+
+.notify-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container .hb-menu-container .dropdown-menu{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow:2px 2px 4px #BCBCBC;
+    overflow: hidden;
+}
+
+.navbar-container .notify-content .dropdown-menu{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow:2px 2px 4px #BCBCBC;
+    overflow: hidden;
+}
+
+.navbar-container .navbar-container .lnk-ntify p{
+    font-family: Roboto;
+    font-size: 12pt;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.539261);
+}

@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import {Switch, Route, BrowserRouter, Redirect} from 'react-router-dom'
+
 import {Context, AuthProvider} from './Context/AuthContext'
 
 import Routeshome from './components/RoutesHome'
@@ -10,7 +11,7 @@ import Recover from './components/Recover'
 function CustomRoute({isPrivate, ...rest}){
     const { authenticate } = useContext(Context)
     if(isPrivate && !authenticate ){
-        
+        console.debug(isPrivate)
         return (
              <Redirect to="/login" />
         )
@@ -27,7 +28,7 @@ function Routes(){
                     <CustomRoute path="/login" component={Login} />
                     <CustomRoute path="/cadastro" component={Cadastro} />
                     <CustomRoute path="/recover" component={Recover} />
-                    <CustomRoute isPrivate exact path="/" component={Routeshome} />
+                    <CustomRoute isPrivate path="/home" component={Routeshome} />
                 </Switch>
             </BrowserRouter>
         </AuthProvider>
