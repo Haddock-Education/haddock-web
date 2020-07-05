@@ -50,12 +50,12 @@ function AuthProvider({children}){
         document.location.reload()
     }
 
-    if( window.location.href !== "https://haddock.herokuapp.com/" && window.location.href !== "https://haddock.herokuapp.com/login" && window.location.href !== "https://haddock.herokuapp.com/recover" && window.location.href !== "https://haddock.herokuapp.com/cadastro"){
+    if( window.location.href !== process.env.REACT_APP_URL && window.location.href !== `${process.env.REACT_APP_URL}/login` && window.location.href !== `${process.env.REACT_APP_URL}/recover` && window.location.href !== `${process.env.REACT_APP_URL}/cadastro`){
         if(loader){
             return(
                 <div>
                     <h1>loader...</h1>
-                    <a href="https://haddock.herokuapp.com/login">ir para login</a>
+                    <a href={`${process.env.REACT_APP_URL}/login`}>ir para login</a>
                     
                 </div>
             )
