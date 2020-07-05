@@ -52,7 +52,7 @@ function AuthProvider({children}){
     }
 
     if( window.location.href !== `${process.env.REACT_APP_URL}/login` && window.location.href !== `${process.env.REACT_APP_URL}/recover` && window.location.href !== `${process.env.REACT_APP_URL}/cadastro`){
-        if(loader && !authenticate){
+        if(loader){
                 
             return(
                 <div>
