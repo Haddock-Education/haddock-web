@@ -1,0 +1,229 @@
+.question-detail-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-detail-section{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.question-detail-section .title-area{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.question-detail-section .title-area h2{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24pt;
+    text-transform: uppercase;
+    color: #979797;
+}
+
+
+/*style card main quest*/
+.question-detail-section .main-question{
+    width: 90%;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(36, 59, 123, 0.09);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.question-detail-section .main-question .card-min-img{
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex: 20;
+}
+
+.question-detail-section .main-question .card-text{
+    flex: 70;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    padding-right: 15px;
+}
+
+.question-detail-section .main-question .card-text p{
+    margin-top: 10px;
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+}
+
+.question-detail-section .main-question .card-text h4{
+    width: 100%;
+    height: 20%;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #243B7B;
+    box-sizing: border-box;
+}
+
+.question-detail-section .main-question .card-min-classific{
+    width: 250px;
+    height: 80px;
+    flex: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.question-detail-section .main-question .card-min-classific img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.question-detail-section .main-question .favorite-content {
+    margin-left: 15px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.question-detail-section .main-question .favorite-content span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12pt;
+    color: #BCBCBC;
+    padding-top: 5px;
+}
+
+
+/*Response question*/
+.response-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.response-container .response-question{
+    width: 95%;
+    height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+}
+
+.response-question .img-container{
+    flex: 20;
+    display: flex;
+    height: 100%;
+    padding-right: 5px;
+}
+
+.response-question .img-container .img-content{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.response-question .text-container{
+    flex: 80;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.response-question .text-container .like-container{
+        margin-top: 5px;
+        width: 100%;
+        padding-left: 10%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+}
+
+.response-container form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.response-container form textarea{
+    width: 100%;
+    height: 180px;
+    padding: 0 25px;
+    border: none;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 15px;
+    outline: none;
+    padding: 10px 20px;
+}
+
+
+.response-container form  .btn-ct{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.response-container form  button{
+    padding: 9px 10px 0;
+    height: 40px;
+    width: 150px;
+    background-color: #243B7B;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    border:none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    outline: none;
+}
+
+.response-container form  button:hover{
+    background-color: #18295a;
+}

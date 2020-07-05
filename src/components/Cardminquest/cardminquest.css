@@ -79,8 +79,8 @@
     padding-top: 5px;
 }
 
-.card-min-question button{
-    height: 45px;
+.card-min-question .button-link{
+    height: 35px;
     width: 130px;
     background-color: #243B7B;
     color: white;
@@ -101,8 +101,9 @@
     margin-top: 15px;
     margin-bottom: 25px;
     outline: 0;
+    padding-top: 8px;
 }
 
-.card-min-question button:hover{
+.card-min-question .button-link:hover{
     background-color: #18295a;
 }

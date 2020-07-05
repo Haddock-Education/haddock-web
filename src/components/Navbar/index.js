@@ -29,7 +29,7 @@ function Navbar(){
                     </form>
                 </div>
                 <div className="col-lg-2 pgt-container">
-                    <Link className="pgt-btn" to="/perguntas" >Fazer uma pergunta</Link>
+                    <Link className="pgt-btn" to="/home/perguntas" >Fazer uma pergunta</Link>
                 </div>
                 <div className="col-lg-1 notify-content">
                     <Dropdown>
@@ -52,10 +52,10 @@ function Navbar(){
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>
-                            <Dropdown.Item><Link to="/perfil" className="dp-item">PERFIL</Link></Dropdown.Item>
-                            <Dropdown.Item><Link to="/rankin" className="dp-item">RANKING</Link></Dropdown.Item>
-                            <Dropdown.Item><Link to="/minhas-duvidas" className="dp-item">MINHAS DÚVIDAS</Link></Dropdown.Item>
-                            <Dropdown.Item><Link to="/favoritos" className="dp-item">FAVORITOS</Link></Dropdown.Item>
+                            <Dropdown.Item><Link to="/home/perfil" className="dp-item">PERFIL</Link></Dropdown.Item>
+                            <Dropdown.Item><Link to="/home/rankin" className="dp-item">RANKING</Link></Dropdown.Item>
+                            <Dropdown.Item><Link to="/home/minhas-duvidas" className="dp-item">MINHAS DÚVIDAS</Link></Dropdown.Item>
+                            <Dropdown.Item><Link to="/home/favoritos" className="dp-item">FAVORITOS</Link></Dropdown.Item>
                             <Dropdown.Item><Link onClick={logout} className="dp-item">SAIR</Link></Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
