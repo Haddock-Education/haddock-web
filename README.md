@@ -13,7 +13,7 @@ O projeto Haddock Education é uma plataforma onde profissionais que atuam em re
 > Video de apresentação Demo: https://www.youtube.com/watch?v=tRCS6S-5_Cw
 
 ## Autor
-👤 **Vinicio Deivid**
+👤 **Vinicio Brejinski**
 
 - Github: https://github.com/ViniDB27
 - Linkedin: https://www.linkedin.com/in/vinicio-brejinski-9ab01a170/
