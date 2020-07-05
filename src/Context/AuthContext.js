@@ -50,12 +50,12 @@ function AuthProvider({children}){
         document.location.reload()
     }
 
-    if(window.location.href !== "http://localhost:3000/login" && window.location.href !== "http://localhost:3000/recover" && window.location.href !== "http://localhost:3000/cadastro"){
+    if(window.location.href !== "https://haddock.herokuapp.com/login" && window.location.href !== "https://haddock.herokuapp.com/recover" && window.location.href !== "https://haddock.herokuapp.com/cadastro"){
         if(loader){
             return(
                 <div>
                     <h1>loader...</h1>
-                    <a href="http://localhost:3000/login">ir para login</a>
+                    <a href="https://haddock.herokuapp.com/login">ir para login</a>
                     
                 </div>
             )
