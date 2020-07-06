@@ -10,7 +10,7 @@ O projeto Haddock Education é uma plataforma onde profissionais que atuam em re
 
 > Prototipo no figma: https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F8xqLQex5g61UWUSNaFx844%2FHaddock%3Fnode-id%3D0%253A1&chrome=DOCUMENTATION
 
-> Video de apresentação Demo: https://www.youtube.com/watch?v=tRCS6S-5_Cw
+> Video de apresentação Demo: https://www.youtube.com/watch?v=TJ5FyD_Qs20
 
 ## Autor
 👤 **Vinicio Brejinski**
